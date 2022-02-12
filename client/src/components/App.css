@@ -1,0 +1,6 @@
+:root {
+  /* Here I will list all the custom properties */
+  --main-color: #ff4b2b;
+  --accent-color: #ff416c;
+  --login-animation: 0.6s;
+}

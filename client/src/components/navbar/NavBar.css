@@ -1,0 +1,46 @@
+.nav-bar-container {
+    padding-inline: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    background: #eee;
+}
+
+.nav-logo {
+    font-size: 2rem;
+}
+
+.search {
+    border: solid #bbb .1rem;
+    border-radius: .3rem;
+    background-color: #fefefe;
+    width: 100%;
+    padding: .7rem;
+}
+
+#lang-icon {
+    width: 2.5rem;
+    margin-inline: 1rem;
+}
+
+.nav-bar-container > button, .dropdown > button{
+    background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    padding-inline: 1.5rem;
+    height: 5rem;
+
+    font-weight: bold;
+}
+
+.nav-bar-container > button {
+    width: 15rem;
+}
+
+.nav-bar-container > button:hover, .dropdown > button:hover{
+    background-color: rgba(255, 255, 255, .5);
+}
